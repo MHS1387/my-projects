@@ -24,11 +24,11 @@ def the_game():
         four_mistakes, five_mistakes, six_mistakes, seven_mistake, eight_mistakes, nine_mistakes]
 
     if difficulty == 'medium':
-        pics = [no_mistake, two_mistakes, four_mistakes, six_mistakes]
-
-    if difficulty == 'hard':
         pics = [no_mistake, one_mistake, two_mistakes, three_mistakes, 
                                     four_mistakes, five_mistakes]
+
+    if difficulty == 'hard':
+        pics = [no_mistake, two_mistakes, four_mistakes, six_mistakes]
 
     for x in range(num_of_letters):
         bottom_of_letters.insert(0, "___ ")    
